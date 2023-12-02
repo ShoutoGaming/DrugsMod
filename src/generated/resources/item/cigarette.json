@@ -1,0 +1,11 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "tutorialmod:item/cigarette"
+	},
+	"overrides": [
+		{"predicate": {"damage": 0.25}, "model": "tutorialmod:item/cigaretteb"},
+		{"predicate": {"damage": 0.5}, "model": "tutorialmod:item/cigarettec"},
+		{"predicate": {"damage": 0.75}, "model": "tutorialmod:item/cigaretted"}
+	]
+}
